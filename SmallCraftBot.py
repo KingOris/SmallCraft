@@ -1,7 +1,7 @@
 from discord.ext.commands import Bot
 
 Bot_Prefix = ("?", "~")
-TOKEN = "NTQ3Nzg5NDc1NjE5NjY3OTY4.D074TA.prQuRmkUINB7jHe-4Uu6upRPD94"
+TOKEN = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 client = Bot(command_prefix=Bot_Prefix)
 guild_name_list = []
