@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 Bot_Prefix = ("?", "~")
-TOKEN = "NTQ3Nzg5NDc1NjE5NjY3OTY4.D074TA.prQuRmkUINB7jHe-4Uu6upRPD94"
+TOKEN = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 client = commands.Bot(command_prefix=Bot_Prefix)
 status = ['Msg1', 'Msg2', 'Msg2']
