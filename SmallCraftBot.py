@@ -1,4 +1,5 @@
 import discord
+import asyncio
 from discord.ext import commands
 
 Bot_Prefix = ("?", "~")
@@ -103,6 +104,17 @@ async def on_reaction_add(reaction, user):
 async def join(ctx):
     channel = ctx.message.author.voice.voice_channel
     await client.join_voice_channel(channel)
+
+
+@client.command(pass_context=True)
+async def at(ctx):
+    user = ctx.message.author
+    name = ctx.message.content
+    message = name[4:]
+    for i in range(10):
+        await client.say(message)
+        await asyncio.sleep(0.1)
+
 
 
 @client.command(pass_context=True)
